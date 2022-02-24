@@ -1,0 +1,109 @@
+# creator_id: h2
+# curie_map:
+#   NCI: http://purl.obolibrary.org/obo/NCIT_
+#   UBERON: http://purl.obolibrary.org/obo/UBERON_
+#   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+# license: https://creativecommons.org/publicdomain/zero/1.0/
+# mapping_date: '2022-02-23'
+# mapping_set_id: http://w3id.org/mapping_commons/disease-mappings/mondo-icd10
+# mapping_tool: https://github.com/mapping-commons/sssom-py
+subject_id	predicate_id	object_id	match_type	subject_label	subject_category	predicate_label	predicate_modifier	object_label	object_category	author_id	author_label	reviewer_id	reviewer_label	creator_id	creator_label	license	subject_source	subject_source_version	object_source	object_source_version	mapping_provider	mapping_cardinality	mapping_tool	mapping_tool_version	mapping_date	confidence	subject_match_field	object_match_field	match_string	subject_preprocessing	object_preprocessing	match_term_type	semantic_similarity_score	semantic_similarity_measure	see_also	other	comment
+NCI:C26470	oboInOwl:hasDbXref	UBERON:0002397	Unspecified	Maxilla																																	
+NCI:C12298	oboInOwl:hasDbXref	UBERON:0003693	Unspecified	Retroperitoneum																																	
+NCI:C12290	oboInOwl:hasDbXref	UBERON:0001684	Unspecified	Mandible																																	
+NCI:C159203	oboInOwl:hasDbXref	UBERON:0007795	Unspecified	Ascites Fluid Sample																																	
+NCI:C64193	oboInOwl:hasDbXref	UBERON:0001464	Unspecified	Hip																																	
+NCI:C25203	oboInOwl:hasDbXref	UBERON:0001467	Unspecified	Shoulder																																	
+NCI:C25389	oboInOwl:hasDbXref	UBERON:0001443	Unspecified	Chest																																	
+NCI:C33157	oboInOwl:hasDbXref	UBERON:0001681	Unspecified	Nasal Bone																																	
+NCI:C33506	oboInOwl:hasDbXref	UBERON:0005473	Unspecified	Sacrococcygeal Joint																																	
+NCI:C33508	oboInOwl:hasDbXref	UBERON:0005473	Unspecified	Sacrum																																	
+NCI:C33209	oboInOwl:hasDbXref	UBERON:0003688	Unspecified	Omentum																																	
+NCI:C33282	oboInOwl:hasDbXref	UBERON:0002446	Unspecified	Patella																																	
+NCI:C33788	oboInOwl:hasDbXref	UBERON:0001466	Unspecified	Toe																																	
+NCI:C32884	oboInOwl:hasDbXref	UBERON:0001274	Unspecified	Ischium																																	
+NCI:C32898	oboInOwl:hasDbXref	UBERON:0001465	Unspecified	Knee Joint																																	
+NCI:C32974	oboInOwl:hasDbXref	UBERON:0000978	Unspecified	Leg																																	
+NCI:C32906	oboInOwl:hasDbXref	UBERON:0001680	Unspecified	Lacrimal Bone																																	
+NCI:C13063	oboInOwl:hasDbXref	UBERON:0000974	Unspecified	Neck																																	
+NCI:C13071	oboInOwl:hasDbXref	UBERON:0001456	Unspecified	Face																																	
+NCI:C52799	oboInOwl:hasDbXref	UBERON:0002395	Unspecified	Talus																																	
+NCI:C13300	oboInOwl:hasDbXref	UBERON:0012168	Unspecified	Umbilical Cord Blood																																	
+NCI:C12718	oboInOwl:hasDbXref	UBERON:0001446	Unspecified	Fibula																																	
+NCI:C12717	oboInOwl:hasDbXref	UBERON:0000981	Unspecified	Femur																																	
+NCI:C12711	oboInOwl:hasDbXref	UBERON:0001679	Unspecified	Ethmoid Bone																																	
+NCI:C12731	oboInOwl:hasDbXref	UBERON:0000976	Unspecified	Humerus																																	
+NCI:C12745	oboInOwl:hasDbXref	UBERON:0000029	Unspecified	Lymph Node																																	
+NCI:C12744	oboInOwl:hasDbXref	UBERON:0002414	Unspecified	Lumbar Vertebra																																	
+NCI:C12748	oboInOwl:hasDbXref	UBERON:0003728	Unspecified	Mediastinum																																	
+NCI:C12752	oboInOwl:hasDbXref	UBERON:6004648	Unspecified	Metatarsal Bone																																	
+NCI:C12751	oboInOwl:hasDbXref	UBERON:0010544	Unspecified	Metacarpal Bone																																	
+NCI:C12664	oboInOwl:hasDbXref	UBERON:0003684	Unspecified	Abdomen																																	
+NCI:C12674	oboInOwl:hasDbXref	UBERON:0009472	Unspecified	Axilla																																	
+NCI:C12688	oboInOwl:hasDbXref	UBERON:0001435	Unspecified	Carpal Bone																																	
+NCI:C12693	oboInOwl:hasDbXref	UBERON:0002413	Unspecified	Cervical Vertebra																																	
+NCI:C12692	oboInOwl:hasDbXref	UBERON:0001359	Unspecified	Cerebrospinal Fluid																																	
+NCI:C12695	oboInOwl:hasDbXref	UBERON:0001105	Unspecified	Clavicle																																	
+NCI:C12696	oboInOwl:hasDbXref	UBERON:0001350	Unspecified	Coccyx																																	
+NCI:C12311	oboInOwl:hasDbXref	UBERON:0000002	Unspecified	Cervix Uteri																																	
+NCI:C12347	oboInOwl:hasDbXref	UBERON:0001697	Unspecified	Orbit																																	
+NCI:C12366	oboInOwl:hasDbXref	UBERON:0002481	Unspecified	Bone																																	
+NCI:C12366	oboInOwl:hasDbXref	UBERON:0001474	Unspecified	Bone																																	
+NCI:C12398	oboInOwl:hasDbXref	UBERON:0001905	Unspecified	Pineal Gland																																	
+NCI:C12392	oboInOwl:hasDbXref	UBERON:0002107	Unspecified	Liver																																	
+NCI:C12404	oboInOwl:hasDbXref	UBERON:0000992	Unspecified	Ovary																																	
+NCI:C12407	oboInOwl:hasDbXref	UBERON:0000996	Unspecified	Vagina																																	
+NCI:C12412	oboInOwl:hasDbXref	UBERON:0000473	Unspecified	Testis																																	
+NCI:C12415	oboInOwl:hasDbXref	UBERON:0002113	Unspecified	Kidney																																	
+NCI:C12418	oboInOwl:hasDbXref	UBERON:0000033	Unspecified	Head and Neck																																	
+NCI:C12418	oboInOwl:hasDbXref	UBERON:0000974	Unspecified	Head and Neck																																	
+NCI:C12431	oboInOwl:hasDbXref	UBERON:0002371	Unspecified	Bone Marrow																																	
+NCI:C12439	oboInOwl:hasDbXref	UBERON:0000955	Unspecified	Brain																																	
+NCI:C12438	oboInOwl:hasDbXref	UBERON:0001017	Unspecified	Central Nervous System																																	
+NCI:C12459	oboInOwl:hasDbXref	UBERON:0010225	Unspecified	Thalamus																																	
+NCI:C12464	oboInOwl:hasDbXref	UBERON:0002240	Unspecified	Spinal Cord																																	
+NCI:C12468	oboInOwl:hasDbXref	UBERON:0002048	Unspecified	Lung																																	
+NCI:C12471	oboInOwl:hasDbXref	UBERON:0034929	Unspecified	Soft Tissue																																	
+NCI:C12470	oboInOwl:hasDbXref	UBERON:0002097	Unspecified	Skin																																	
+NCI:C12470	oboInOwl:hasDbXref	UBERON:0000014	Unspecified	Skin																																	
+NCI:C12998	oboInOwl:hasDbXref	UBERON:0013706	Unspecified	Vertebral Column																																	
+NCI:C12809	oboInOwl:hasDbXref	UBERON:0001424	Unspecified	Ulna																																	
+NCI:C12800	oboInOwl:hasDbXref	UBERON:0000979	Unspecified	Tibia																																	
+NCI:C12757	oboInOwl:hasDbXref	UBERON:0001676	Unspecified	Occipital Bone																																	
+NCI:C12767	oboInOwl:hasDbXref	UBERON:0002355	Unspecified	Pelvis																																	
+NCI:C12767	oboInOwl:hasDbXref	UBERON:0001270	Unspecified	Pelvis																																	
+NCI:C12766	oboInOwl:hasDbXref	UBERON:0004865	Unspecified	Parietal Bone																																	
+NCI:C12770	oboInOwl:hasDbXref	UBERON:0002358	Unspecified	Peritoneum																																	
+NCI:C12777	oboInOwl:hasDbXref	UBERON:0001423	Unspecified	Radius Bone																																	
+NCI:C12783	oboInOwl:hasDbXref	UBERON:0006849	Unspecified	Scapula																																	
+NCI:C12782	oboInOwl:hasDbXref	UBERON:0002228	Unspecified	Rib																																	
+NCI:C12789	oboInOwl:hasDbXref	UBERON:0003128	Unspecified	Skull																																	
+NCI:C12790	oboInOwl:hasDbXref	UBERON:0001677	Unspecified	Sphenoid Bone																																	
+NCI:C12793	oboInOwl:hasDbXref	UBERON:0000975	Unspecified	Sternum																																	
+NCI:C12796	oboInOwl:hasDbXref	UBERON:0001447	Unspecified	Tarsal Bone																																	
+NCI:C12798	oboInOwl:hasDbXref	UBERON:0002347	Unspecified	Thoracic Vertebra																																	
+NCI:C12797	oboInOwl:hasDbXref	UBERON:0001678	Unspecified	Temporal Bone																																	
+NCI:C32141	oboInOwl:hasDbXref	UBERON:0004250	Unspecified	Arm																																	
+NCI:C32250	oboInOwl:hasDbXref	UBERON:0001450	Unspecified	Calcaneum																																	
+NCI:C173496	oboInOwl:hasDbXref	UBERON:0013756	Unspecified	Peripheral Blood																																	
+NCI:C32042	oboInOwl:hasDbXref	UBERON:0001269	Unspecified	Acetabulum																																	
+NCI:C32608	oboInOwl:hasDbXref	UBERON:0002389	Unspecified	Finger																																	
+NCI:C32622	oboInOwl:hasDbXref	UBERON:0002387	Unspecified	Foot																																	
+NCI:C32635	oboInOwl:hasDbXref	UBERON:0004866	Unspecified	Frontal Bone																																	
+NCI:C32712	oboInOwl:hasDbXref	UBERON:0002398	Unspecified	Hand																																	
+NCI:C32719	oboInOwl:hasDbXref	UBERON:0008775	Unspecified	Head of the Fibula																																	
+NCI:C32765	oboInOwl:hasDbXref	UBERON:0001273	Unspecified	Ilium																																	
+NCI:C32497	oboInOwl:hasDbXref	UBERON:0001461	Unspecified	Elbow Joint																																	
+NCI:C41067	oboInOwl:hasDbXref	UBERON:0000178	Unspecified	Whole Blood																																	
+NCI:C89807	oboInOwl:hasDbXref	UBERON:0000403	Unspecified	Scalp																																	
+NCI:C89806	oboInOwl:hasDbXref	UBERON:0013691	Unspecified	Buttock																																	
+NCI:C34082	oboInOwl:hasDbXref	UBERON:0001555	Unspecified	Gastrointestinal Tract																																	
+NCI:C77608	oboInOwl:hasDbXref	UBERON:0003697	Unspecified	Abdominal Wall																																	
+NCI:C177768	oboInOwl:hasDbXref	UBERON:0016538	Unspecified	Temporal Lobe Cortex																																	
+NCI:C177767	oboInOwl:hasDbXref	UBERON:0016540	Unspecified	Occipital Lobe Cortex																																	
+NCI:C177766	oboInOwl:hasDbXref	UBERON:0001870	Unspecified	Frontal Lobe Cortex																																	
+NCI:C177764	oboInOwl:hasDbXref	UBERON:0016530	Unspecified	Parietal Lobe Cortex																																	
+NCI:C177357	oboInOwl:hasDbXref	UBERON:0003689	Unspecified	Suprasellar/Neurohypophyseal																																	
+NCI:C177357	oboInOwl:hasDbXref	UBERON:0001905	Unspecified	Suprasellar/Neurohypophyseal																																	
+NCI:C62484	oboInOwl:hasDbXref	UBERON:0016435	Unspecified	Chest Wall																																	
+
