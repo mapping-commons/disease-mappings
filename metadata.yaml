@@ -1385,3 +1385,10 @@ curie_map:
   "yrcpdr": "http://yeastrc.org/pdr/viewProtein.do?id="
   "zfin": "http://zfin.org/"
   "zinc": "http://zinc15.docking.org/substances/"
+  # Added by me
+  "IDENTIFIERS": "http://identifiers.org/"
+  "ICD10": "ICD-10:"
+  "langual": "http://www.langual.org/langual_thesaurus.asp?termid="
+  "clinical_genome": "https://www.clinicalgenome.org/affiliation/"
+  "wikipedia": "https://en.wikipedia.org/wiki/"
+  "IMDRF": "IMDRF"
