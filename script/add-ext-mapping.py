@@ -85,6 +85,8 @@ def main(ont):
     for col_name in blank_columns:
         new_df[col_name] = ""
 
+    ncit_sssom.metadata["mapping_date"] = "2018-07-05"
+
     new_prefix_map = ncit_sssom.prefix_map
     new_prefix_map[
         "ICD10CM"
