@@ -1,6 +1,6 @@
 # creator_id: h2
 # curie_map:
-#   ICD10CM: 'ICD10CM:'
+#   ICD10CM: http://apps.who.int/classifications/icd10/browse/2010/en#/
 #   IMDRF: IMDRF
 #   NCI: http://purl.obolibrary.org/obo/NCIT_
 #   UBERON: http://purl.obolibrary.org/obo/UBERON_

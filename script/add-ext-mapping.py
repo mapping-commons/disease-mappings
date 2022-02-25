@@ -86,7 +86,9 @@ def main(ont):
         new_df[col_name] = ""
 
     new_prefix_map = ncit_sssom.prefix_map
-    new_prefix_map["ICD10CM"] = "ICD10CM:"
+    new_prefix_map[
+        "ICD10CM"
+    ] = "http://apps.who.int/classifications/icd10/browse/2010/en#/"
 
     ncit_icd10_sssom = sssom.util.MappingSetDataFrame(
         df=new_df,
