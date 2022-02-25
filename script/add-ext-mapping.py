@@ -1,14 +1,11 @@
-from hashlib import new
 from posixpath import dirname
 import sys
-from importlib_metadata import metadata
 import pandas as pd
 from os.path import join
 from os import listdir
 import sssom
 import yaml
 from sssom.parsers import read_sssom_table
-from sssom.typehints import MetadataType
 from sssom.writers import write_table
 
 MAPPINGS_DIR = join(dirname(dirname(__file__)), "mappings")
