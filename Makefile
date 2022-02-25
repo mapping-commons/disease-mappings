@@ -24,3 +24,7 @@ sssom:
 map: mappings/ncit.sssom.tsv | mappings/mondo.sssom.tsv
 mappings/%.sssom.tsv: tmp/%.json | sssom
 	sssom parse tmp/$*.json -I obographs-json -m metadata.yaml -o $@
+
+.PHONY: ncit_icd
+ncit_icd:
+	python -m script.add-ext-mapping ncit
