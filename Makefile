@@ -53,4 +53,4 @@ $(MAPPINGS_DIR)/ncit_icd10_2016.sssom.tsv mappings/ncit_icd10_2017.sssom.tsv:
 p:
 	echo $(MAPPINGS_TSVS)
 
-q: $(MAPPINGS_DIR)/doid.sssom.tsv # only for dev
+q: $(MAPPINGS_DIR)/doid.sssom.tsv
