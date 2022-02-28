@@ -1,6 +1,6 @@
 license: "https://creativecommons.org/publicdomain/zero/1.0/"
 mapping_tool: "https://github.com/mapping-commons/sssom-py"
-mapping_set_id: "http://w3id.org/mapping_commons/disease-mappings/mondo-icd10"
+mapping_set_id: "http://w3id.org/mapping_commons/disease-mappings/onto-icd10"
 creator_id: "h2"
 mapping_date: "2022-02-23"
 curie_map:
@@ -1387,7 +1387,6 @@ curie_map:
   "zinc": "http://zinc15.docking.org/substances/"
   # Added by me
   "IDENTIFIERS": "http://identifiers.org/"
-  "ICD10": "ICD-10:"
   "langual": "http://www.langual.org/langual_thesaurus.asp?termid="
   "clinical_genome": "https://www.clinicalgenome.org/affiliation/"
   "wikipedia": "https://en.wikipedia.org/wiki/"

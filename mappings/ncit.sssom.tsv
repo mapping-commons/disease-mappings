@@ -6,7 +6,7 @@
 #   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
 # license: https://creativecommons.org/publicdomain/zero/1.0/
 # mapping_date: '2022-02-23'
-# mapping_set_id: http://w3id.org/mapping_commons/disease-mappings/mondo-icd10
+# mapping_set_id: http://w3id.org/mapping_commons/disease-mappings/onto-icd10
 # mapping_tool: https://github.com/mapping-commons/sssom-py
 subject_id	predicate_id	object_id	match_type	subject_label	subject_category	predicate_label	predicate_modifier	object_label	object_category	author_id	author_label	reviewer_id	reviewer_label	creator_id	creator_label	license	subject_source	subject_source_version	object_source	object_source_version	mapping_provider	mapping_cardinality	mapping_tool	mapping_tool_version	mapping_date	confidence	subject_match_field	object_match_field	match_string	subject_preprocessing	object_preprocessing	match_term_type	semantic_similarity_score	semantic_similarity_measure	see_also	other	comment
 NCI:C79695	oboInOwl:hasDbXref	IMDRF:E0125	Unspecified	Neuralgia																																	
