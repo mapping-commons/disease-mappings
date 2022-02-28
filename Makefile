@@ -20,6 +20,7 @@ tmp/ncit_icd10_2016.csv: | tmp/
 
 tmp/ncit_icd10_2017.csv: | tmp/
 	wget "https://ncit.nci.nih.gov/ncitbrowser/ajax?action=export_maps_to_mapping&target=ICD10CM%202017" -O $@
+
 # This works for MONDO, DOID and NCIT [everything in obofoundry]
 $(INPUT)%.owl: | $(INPUT)
 	wget http://purl.obolibrary.org/obo/$*.owl -O $@
