@@ -1386,14 +1386,25 @@ curie_map:
   "zfin": "http://zfin.org/"
   "zinc": "http://zinc15.docking.org/substances/"
   # Added by me
+  # from NCIT
   "IDENTIFIERS": "http://identifiers.org/"
   "langual": "http://www.langual.org/langual_thesaurus.asp?termid="
   "clinical_genome": "https://www.clinicalgenome.org/affiliation/"
   "wikipedia": "https://en.wikipedia.org/wiki/"
   "IMDRF": "IMDRF"
+  # from DOID
   "SNOMEDCT_US_2021_07_31": "SNOMEDCT_US_2021_07_31"
   "GARD": "GARD"
   "MEDDRA": "MEDDRA"
   "ICDO": "ICDO"
   "ICD9CM": "ICD9CM"
   "ORDO": "ORDO"
+  # from ORDO
+  "ICD-10": "ICD-10"
+  "IUPHAR": "IUPHAR"
+  "Genatlas": "Genatlas"
+  "HGNC": "HGNC"
+  "Reactome": "Reactome"
+  "MeSH": "MeSH"
+  # from OMIM
+  "OMIM": "http://omim.org/entry/"

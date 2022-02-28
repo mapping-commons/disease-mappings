@@ -1,5 +1,4 @@
 MAPPINGS_DIR=mappings
-INPUT_DIR=raw_input/
 OMIM=https://github.com/monarch-initiative/omim/releases/download/latest/omim.ttl
 ORDO=http://www.orphadata.org/data/ORDO/ORDO_en_4.0.owl
 MAPPINGS=ncit mondo ordo omim doid ncit_icd10_2016 ncit_icd10_2017
@@ -10,8 +9,8 @@ map: $(MAPPINGS_TSVS)
 
 .PHONY: dirs
 
-dirs: $(INPUT) tmp/
-$(INPUT) tmp/:
+dirs: raw_input/ tmp/
+raw_input/ tmp/:
 	mkdir -p $@
 
 # get ICD10 mapping files
@@ -22,17 +21,17 @@ tmp/ncit_icd10_2017.csv: | tmp/
 	wget "https://ncit.nci.nih.gov/ncitbrowser/ajax?action=export_maps_to_mapping&target=ICD10CM%202017" -O $@
 
 # This works for MONDO, DOID and NCIT [everything in obofoundry]
-$(INPUT)%.owl: | $(INPUT)
+raw_input/%.owl: | raw_input/
 	wget http://purl.obolibrary.org/obo/$*.owl -O $@
 
-$(INPUT)omim.owl: | $(INPUT)
+raw_input/omim.owl: | raw_input/
 	wget $(OMIM) -O $@
 
-$(INPUT)ordo.owl: | $(INPUT)
+raw_input/ordo.owl: | raw_input/
 	wget $(ORDO) -O $@
 
 
-tmp/%.json: $(INPUT)%.owl
+tmp/%.json: raw_input/%.owl
 	robot convert -i $< -o $@
 
 .PHONY: sssom
