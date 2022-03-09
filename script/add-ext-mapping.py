@@ -12,7 +12,7 @@ MAPPINGS_DIR = join(dirname(dirname(__file__)), "mappings")
 RAW_INPUT_DIR = join(dirname(dirname(__file__)), "raw_input")
 TMP_DIR = join(dirname(dirname(__file__)), "tmp")
 META = join(dirname(dirname(__file__)), "metadata.yaml")
-
+MATCH_TYPE_UNSPECIFIED = "Unspecified"
 PREFIX_DICT = {"ncit": "NCI:"}
 PREDICATE_DICT = {
     "Broader Than": "skos:narrowMatch",
@@ -105,6 +105,7 @@ def main(ont):
         )
         # new_df.insert(loc=3, column="match_type", value="Unspecified")
         new_df = new_df.drop_duplicates()
+        new_df["match_type"] = MATCH_TYPE_UNSPECIFIED
         ncit_icd10_sssom = sssom.util.MappingSetDataFrame(
             df=new_df,
             metadata=ncit_sssom.metadata,
