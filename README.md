@@ -12,4 +12,4 @@ As of 10.03.2022, this mapping commons is still under construction - in pre-pre-
 - Nicole Vasilevsky (@nicolevasilevsky)
 - Sabrina Toro (@sabrinatoro)
 
-For now, use the [issue tracker](https://github.com/mapping-commons/disease-mappings/issues) if you have any questions?
+For now, use the [issue tracker](https://github.com/mapping-commons/disease-mappings/issues) if you have any questions.
