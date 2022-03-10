@@ -1,10 +1,10 @@
-# creator_id: h2
 # curie_map:
 #   ICD10CM: http://apps.who.int/classifications/icd10/browse/2010/en#/
 #   NCI: http://purl.obolibrary.org/obo/NCIT_
 # license: https://creativecommons.org/publicdomain/zero/1.0/
 # mapping_date: '2018-07-05'
-# mapping_set_id: http://w3id.org/mapping_commons/disease-mappings/onto-icd10
+# mapping_provider: https://ncit.nci.nih.gov/ncitbrowser/ajax?action=export_maps_to_mapping&target=ICD10CM%202017
+# mapping_set_id: http://w3id.org/mapping_commons/disease-mappings/ncit_icd10_2017.sssom.tsv
 # mapping_tool: https://github.com/mapping-commons/sssom-py
 subject_id	predicate_id	object_id	subject_label	match_type
 NCI:C9335	skos:narrowMatch	ICD10CM:C50.3	Malignant neoplasm: Lower-inner quadrant of breast	Unspecified

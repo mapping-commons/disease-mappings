@@ -1,7 +1,6 @@
 license: "https://creativecommons.org/publicdomain/zero/1.0/"
 mapping_tool: "https://github.com/mapping-commons/sssom-py"
 mapping_set_id: "http://w3id.org/mapping_commons/disease-mappings/onto-icd10"
-creator_id: "h2"
 mapping_date: "2022-02-23"
 curie_map:
   "3dmet": "http://www.3dmet.dna.affrc.go.jp/cgi/show_data.php?acc="

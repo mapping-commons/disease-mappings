@@ -1,4 +1,3 @@
-# creator_id: h2
 # curie_map:
 #   Ensembl: https://www.ensembl.org/id/
 #   Genatlas: Genatlas
@@ -12440,8 +12439,8 @@ ordo:159233	oboInOwl:hasDbXref	OMIM:608414	Unspecified	phospholipase C epsilon 1
 ordo:328666	oboInOwl:hasDbXref	Reactome:Q9HCG7	Unspecified	glucosylceramidase beta 2
 ordo:328666	oboInOwl:hasDbXref	Genatlas:GBA2	Unspecified	glucosylceramidase beta 2
 ordo:328666	oboInOwl:hasDbXref	HGNC:18986	Unspecified	glucosylceramidase beta 2
-ordo:328666	oboInOwl:hasDbXref	SwissProt:Q9HCG7	Unspecified	glucosylceramidase beta 2
 ordo:328666	oboInOwl:hasDbXref	Ensembl:ENSG00000070610	Unspecified	glucosylceramidase beta 2
+ordo:328666	oboInOwl:hasDbXref	SwissProt:Q9HCG7	Unspecified	glucosylceramidase beta 2
 ordo:328666	oboInOwl:hasDbXref	OMIM:609471	Unspecified	glucosylceramidase beta 2
 ordo:160278	oboInOwl:hasDbXref	HGNC:29262	Unspecified	intraflagellar transport 80
 ordo:160278	oboInOwl:hasDbXref	Genatlas:IFT80	Unspecified	intraflagellar transport 80

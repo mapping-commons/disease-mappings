@@ -20,6 +20,10 @@ PREDICATE_DICT = {
     "Has Synonym": "skos:exactMatch",
     "Narrower Than": "skos:broadMatch",
 }
+MAPPING_PROVIDERS = {
+    "ncit_icd10_2017.sssom.tsv": "https://ncit.nci.nih.gov/ncitbrowser/ajax?action=export_maps_to_mapping&target=ICD10CM%202017",
+    "ncit_icd10_2016.sssom.tsv": "https://ncit.nci.nih.gov/ncitbrowser/ajax?action=export_maps_to_mapping&target=ICD10%202016",
+}
 with open(META, "r") as stream:
     try:
         metadata_yaml = yaml.safe_load(stream)
@@ -106,12 +110,18 @@ def main(ont):
         # new_df.insert(loc=3, column="match_type", value="Unspecified")
         new_df = new_df.drop_duplicates()
         new_df["match_type"] = MATCH_TYPE_UNSPECIFIED
+        new_fn = fn.replace(".csv", ".sssom.tsv")
+        ncit_sssom.metadata["mapping_set_id"] = ncit_sssom.metadata[
+            "mapping_set_id"
+        ].replace("onto-icd10", new_fn)
+        ncit_sssom.metadata["mapping_provider"] = MAPPING_PROVIDERS[new_fn]
+
         ncit_icd10_sssom = sssom.util.MappingSetDataFrame(
             df=new_df,
             metadata=ncit_sssom.metadata,
             prefix_map=new_prefix_map,
         )
-        new_fn = fn.replace(".csv", ".sssom.tsv")
+
         with open(join(MAPPINGS_DIR, new_fn), "w") as file:
             write_table(ncit_icd10_sssom, file)
 
