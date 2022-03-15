@@ -21,7 +21,7 @@
 #   UMLS_CUI: http://linkedlifedata.com/resource/umls/id/
 #   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
 #   skos: http://www.w3.org/2004/02/skos/core#
-# license: https://creativecommons.org/publicdomain/zero/1.0/
+# license: https://github.com/mapping-commons/mapping-commons.github.io/blob/main/docs/original_license_applies.md
 # mapping_date: '2022-02-23'
 # mapping_set_id: http://w3id.org/mapping_commons/disease-mappings/onto-icd10
 # mapping_tool: https://github.com/mapping-commons/sssom-py
@@ -28557,13 +28557,21 @@ DOID:2983	oboInOwl:hasDbXref	SNOMEDCT_US_2021_09_01:139460001	Unspecified	anuria
 DOID:2983	oboInOwl:hasDbXref	MESH:D001002	Unspecified	anuria
 DOID:2983	oboInOwl:hasDbXref	NCI:C114699	Unspecified	anuria
 DOID:2983	oboInOwl:hasDbXref	UMLS_CUI:C0003460	Unspecified	anuria
+DOID:0112350	oboInOwl:hasDbXref	OMIM:619672	Unspecified	spermatogenic failure 61
 DOID:0111022	oboInOwl:hasDbXref	OMIM:614500	Unspecified	cone-rod dystrophy 16
+DOID:0112354	oboInOwl:hasDbXref	OMIM:619712	Unspecified	spermatogenic failure 65
 DOID:0111023	oboInOwl:hasDbXref	OMIM:615163	Unspecified	cone-rod dystrophy 17
+DOID:0112353	oboInOwl:hasDbXref	OMIM:619696	Unspecified	spermatogenic failure 64
+DOID:0112352	oboInOwl:hasDbXref	OMIM:619585	Unspecified	spermatogenic failure 58
 DOID:0111020	oboInOwl:hasDbXref	OMIM:612775	Unspecified	cone-rod dystrophy 9
+DOID:0112351	oboInOwl:hasDbXref	OMIM:619673	Unspecified	spermatogenic failure 62
 DOID:0111021	oboInOwl:hasDbXref	OMIM:613660	Unspecified	cone-rod dystrophy 15
 DOID:0111026	oboInOwl:hasDbXref	OMIM:615973	Unspecified	cone-rod dystrophy 20
 DOID:0111027	oboInOwl:hasDbXref	OMIM:602390	Unspecified	hemochromatosis type 2A
+DOID:0112357	oboInOwl:hasDbXref	OMIM:619645	Unspecified	spermatogenic failure 59
+DOID:0112356	oboInOwl:hasDbXref	OMIM:619689	Unspecified	spermatogenic failure 63
 DOID:0111024	oboInOwl:hasDbXref	OMIM:615374	Unspecified	cone-rod dystrophy 18
+DOID:0112355	oboInOwl:hasDbXref	OMIM:619646	Unspecified	spermatogenic failure 60
 DOID:0111025	oboInOwl:hasDbXref	OMIM:615860	Unspecified	cone-rod dystrophy 19
 DOID:1657	oboInOwl:hasDbXref	OMIM:614431	Unspecified	ventricular septal defect
 DOID:1657	oboInOwl:hasDbXref	ICD9CM:745.4	Unspecified	ventricular septal defect
@@ -28880,12 +28888,14 @@ DOID:260	oboInOwl:hasDbXref	ICD9CM:153.0	Unspecified	hepatic flexure cancer
 DOID:262	oboInOwl:hasDbXref	NCI:C4527	Unspecified	kidney hemangiopericytoma
 DOID:262	oboInOwl:hasDbXref	UMLS_CUI:C0346256	Unspecified	kidney hemangiopericytoma
 DOID:262	oboInOwl:hasDbXref	SNOMEDCT_US_2021_09_01:254923001	Unspecified	kidney hemangiopericytoma
+DOID:0112343	oboInOwl:hasDbXref	OMIM:618770	Unspecified	hereditary spastic paraplegia 82
 DOID:0111011	oboInOwl:hasDbXref	OMIM:601777	Unspecified	cone-rod dystrophy 6
 DOID:0111011	oboInOwl:hasDbXref	GARD:10656	Unspecified	cone-rod dystrophy 6
 DOID:261	oboInOwl:hasDbXref	SNOMEDCT_US_2021_09_01:94105000	Unspecified	transverse colon cancer
 DOID:261	oboInOwl:hasDbXref	UMLS_CUI:C0153434	Unspecified	transverse colon cancer
 DOID:261	oboInOwl:hasDbXref	ICD9CM:153.1	Unspecified	transverse colon cancer
 DOID:261	oboInOwl:hasDbXref	ICD10CM:C18.4	Unspecified	transverse colon cancer
+DOID:0112342	oboInOwl:hasDbXref	OMIM:619735	Unspecified	hereditary spastic paraplegia 86
 DOID:0111012	oboInOwl:hasDbXref	OMIM:603649	Unspecified	cone-rod dystrophy 7
 DOID:264	oboInOwl:hasDbXref	NCI:C3087	Unspecified	hemangiopericytoma
 DOID:264	oboInOwl:hasDbXref	ICDO:9150/3	Unspecified	hemangiopericytoma
@@ -28893,6 +28903,7 @@ DOID:264	oboInOwl:hasDbXref	GARD:2627	Unspecified	hemangiopericytoma
 DOID:264	oboInOwl:hasDbXref	SNOMEDCT_US_2021_09_01:134335004	Unspecified	hemangiopericytoma
 DOID:264	oboInOwl:hasDbXref	UMLS_CUI:C0018922	Unspecified	hemangiopericytoma
 DOID:264	oboInOwl:hasDbXref	MESH:D006393	Unspecified	hemangiopericytoma
+DOID:0112341	oboInOwl:hasDbXref	OMIM:618418	Unspecified	hereditary spastic paraplegia 80
 DOID:263	oboInOwl:hasDbXref	SNOMEDCT_US_2021_09_01:126880001	Unspecified	kidney cancer
 DOID:263	oboInOwl:hasDbXref	ICD9CM:189.0	Unspecified	kidney cancer
 DOID:263	oboInOwl:hasDbXref	UMLS_CUI:C0740457	Unspecified	kidney cancer
@@ -28905,11 +28916,14 @@ DOID:263	oboInOwl:hasDbXref	UMLS_CUI:C0022665	Unspecified	kidney cancer
 DOID:263	oboInOwl:hasDbXref	SNOMEDCT_US_2021_09_01:93849006	Unspecified	kidney cancer
 DOID:263	oboInOwl:hasDbXref	UMLS_CUI:C0494158	Unspecified	kidney cancer
 DOID:0111010	oboInOwl:hasDbXref	OMIM:600977	Unspecified	cone-rod dystrophy 5
+DOID:0112340	oboInOwl:hasDbXref	OMIM:619727	Unspecified	craniotubular dysplasia Ikegawa type
+DOID:0112347	oboInOwl:hasDbXref	OMIM:619621	Unspecified	hereditary spastic paraplegia 84
 DOID:0111015	oboInOwl:hasDbXref	OMIM:607476	Unspecified	Newfoundland cone-rod dystrophy
 DOID:265	oboInOwl:hasDbXref	UMLS_CUI:C0346424	Unspecified	spleen angiosarcoma
 DOID:265	oboInOwl:hasDbXref	NCI:C4564	Unspecified	spleen angiosarcoma
 DOID:265	oboInOwl:hasDbXref	SNOMEDCT_US_2021_09_01:187821001	Unspecified	spleen angiosarcoma
 DOID:0111016	oboInOwl:hasDbXref	OMIM:608194	Unspecified	cone-rod dystrophy 13
+DOID:0112346	oboInOwl:hasDbXref	OMIM:619027	Unspecified	hereditary spastic paraplegia 83
 DOID:0111013	oboInOwl:hasDbXref	OMIM:604116	Unspecified	cone-rod dystrophy 3
 DOID:0111013	oboInOwl:hasDbXref	GARD:10653	Unspecified	cone-rod dystrophy 3
 DOID:268	oboInOwl:hasDbXref	NCI:C4438	Unspecified	liver angiosarcoma
@@ -28917,10 +28931,17 @@ DOID:268	oboInOwl:hasDbXref	ICD10CM:C22.3	Unspecified	liver angiosarcoma
 DOID:268	oboInOwl:hasDbXref	UMLS_CUI:C0345907	Unspecified	liver angiosarcoma
 DOID:268	oboInOwl:hasDbXref	SNOMEDCT_US_2021_09_01:187770005	Unspecified	liver angiosarcoma
 DOID:268	oboInOwl:hasDbXref	GARD:5813	Unspecified	liver angiosarcoma
+DOID:0112345	oboInOwl:hasDbXref	OMIM:619686	Unspecified	hereditary spastic paraplegia 85
+DOID:0112344	oboInOwl:hasDbXref	OMIM:615491	Unspecified	hereditary spastic paraplegia 79
+DOID:0112344	oboInOwl:hasDbXref	ORDO:352654	Unspecified	hereditary spastic paraplegia 79
 DOID:0111014	oboInOwl:hasDbXref	OMIM:605549	Unspecified	cone-rod dystrophy 8
 DOID:0111019	oboInOwl:hasDbXref	OMIM:612657	Unspecified	cone-rod dystrophy 12
+DOID:0112349	oboInOwl:hasDbXref	ORDO:506353	Unspecified	hereditary spastic paraplegia 81
+DOID:0112349	oboInOwl:hasDbXref	OMIM:618768	Unspecified	hereditary spastic paraplegia 81
 DOID:0111017	oboInOwl:hasDbXref	OMIM:610283	Unspecified	cone-rod dystrophy 10
 DOID:0111018	oboInOwl:hasDbXref	OMIM:610381	Unspecified	cone-rod dystrophy 11
+DOID:0112348	oboInOwl:hasDbXref	OMIM:617225	Unspecified	hereditary spastic paraplegia 78
+DOID:0112348	oboInOwl:hasDbXref	ORDO:513436	Unspecified	hereditary spastic paraplegia 78
 DOID:1677	oboInOwl:hasDbXref	SNOMEDCT_US_2021_09_01:198897009	Unspecified	low implantation of placenta
 DOID:1677	oboInOwl:hasDbXref	ICD9CM:641.0	Unspecified	low implantation of placenta
 DOID:1677	oboInOwl:hasDbXref	UMLS_CUI:C0156617	Unspecified	low implantation of placenta
@@ -28984,6 +29005,8 @@ DOID:1679	oboInOwl:hasDbXref	UMLS_CUI:C0010692	Unspecified	cystitis
 DOID:1679	oboInOwl:hasDbXref	NCI:C26738	Unspecified	cystitis
 DOID:0111009	oboInOwl:hasDbXref	OMIM:600624	Unspecified	cone-rod dystrophy 1
 DOID:0111009	oboInOwl:hasDbXref	GARD:10651	Unspecified	cone-rod dystrophy 1
+DOID:0112339	oboInOwl:hasDbXref	OMIM:615879	Unspecified	Tatton-Brown-Rahman syndrome
+DOID:0112339	oboInOwl:hasDbXref	ORDO:404443	Unspecified	Tatton-Brown-Rahman syndrome
 DOID:0111006	oboInOwl:hasDbXref	OMIM:300085	Unspecified	X-linked cone-rod dystrophy 2
 DOID:0112338	oboInOwl:hasDbXref	OMIM:619528	Unspecified	spermatogenic failure 57
 DOID:0112337	oboInOwl:hasDbXref	OMIM:619380	Unspecified	spermatogenic failure 55

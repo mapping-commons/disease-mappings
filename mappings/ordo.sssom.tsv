@@ -11,7 +11,7 @@
 #   UMLS: http://linkedlifedata.com/resource/umls/id/
 #   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
 #   ordo: http://www.orpha.net/ORDO/Orphanet_
-# license: https://creativecommons.org/publicdomain/zero/1.0/
+# license: https://github.com/mapping-commons/mapping-commons.github.io/blob/main/docs/original_license_applies.md
 # mapping_date: '2022-02-23'
 # mapping_set_id: http://w3id.org/mapping_commons/disease-mappings/onto-icd10
 # mapping_tool: https://github.com/mapping-commons/sssom-py
@@ -12439,8 +12439,8 @@ ordo:159233	oboInOwl:hasDbXref	OMIM:608414	Unspecified	phospholipase C epsilon 1
 ordo:328666	oboInOwl:hasDbXref	Reactome:Q9HCG7	Unspecified	glucosylceramidase beta 2
 ordo:328666	oboInOwl:hasDbXref	Genatlas:GBA2	Unspecified	glucosylceramidase beta 2
 ordo:328666	oboInOwl:hasDbXref	HGNC:18986	Unspecified	glucosylceramidase beta 2
-ordo:328666	oboInOwl:hasDbXref	Ensembl:ENSG00000070610	Unspecified	glucosylceramidase beta 2
 ordo:328666	oboInOwl:hasDbXref	SwissProt:Q9HCG7	Unspecified	glucosylceramidase beta 2
+ordo:328666	oboInOwl:hasDbXref	Ensembl:ENSG00000070610	Unspecified	glucosylceramidase beta 2
 ordo:328666	oboInOwl:hasDbXref	OMIM:609471	Unspecified	glucosylceramidase beta 2
 ordo:160278	oboInOwl:hasDbXref	HGNC:29262	Unspecified	intraflagellar transport 80
 ordo:160278	oboInOwl:hasDbXref	Genatlas:IFT80	Unspecified	intraflagellar transport 80
