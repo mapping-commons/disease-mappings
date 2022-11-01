@@ -1,5 +1,5 @@
 mapping_registry_id: http://w3id.org/sssom/commons/disease
-homepage: https://github.com/mapping-commons/mapping-commons-template
+homepage: https://github.com/mapping-commons/disease-mappings
 mapping_set_references:
   - mapping_set_group: mondo
     mapping_set_id: http://purl.obolibrary.org/obo/mondo/mappings/mondo_hasdbxref_icd10cm.sssom.tsv
