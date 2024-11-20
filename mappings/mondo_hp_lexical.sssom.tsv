@@ -12,6 +12,7 @@
 # object_source: http://purl.obolibrary.org/obo/hp.owl
 # subject_source: http://purl.obolibrary.org/obo/mondo.owl
 # mapping_provider: https://monarchinitiative.org/
+# issue_tracker: https://github.com/mapping-commons/disease-mappings/issues
 subject_id	subject_label	object_id	object_label	mapping_justification	predicate_id	comment
 MONDO:0000004	adrenocortical insufficiency	HP:0000846	Adrenal insufficiency	semapv:LexicalMatching	skos:closeMatch	Not reviewed by a human
 MONDO:0000004	adrenocortical insufficiency	HP:0008163	Decreased circulating cortisol level	semapv:LexicalMatching	skos:closeMatch	Not reviewed by a human
