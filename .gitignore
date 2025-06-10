@@ -1,3 +1,4 @@
 raw_input/*
 tmp/*
 **/__pycache__/**
+.DS_Store
